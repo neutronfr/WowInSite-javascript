@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.banner{
+    background: linear-gradient(to top, #00986c, #8ecffe);
+    background-position: center;
+    background-size: cover;
+    height: 160vh;
+}
+.logo{
+    width: 140px;
+    position: absolute;
+    top: 3%;
+    left: 2%
+}
+.banner-text{
+    text-align: center;
+    color:white;
+    padding-top: 100px;
+    bottom: 10%;
+}
+.banner-text h1{
+    font-size: 130px;
+    top: 10%;
+}
+.banner-text p{
+    font-size:20px;
+    font-style:italic;
+}
+.banner-btn{
+    margin: 70px auto 0;
+}
+.banner-btn a{
+    width: 150px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 12px 0;
+    color:#00986c;
+    border: .5px solid;
+    position: relative;
+    z-index:1;
+    transition: 0.5s;
+}
+.banner-btn a span{
+    width: 0%;
+    height:100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: white;
+    z-index: -1;
+    transition: 0.5s;
+}
+.banner-btn a:hover span{
+    width: 100%;
+}
+banner-btn a:hover{
+    color:chocolate;
+}
+.navbar{
+    text-align:left;
+    padding-top: 50px;
+    color:#fff;
+    
+}
+.navbar h2{
+    font-family: 'Courier New', Courier, monospace;
+    padding-left: 5%;
+    font-size:x-large;
+    float:left;
+    color:black;
+}
+.Eich-container{
+    border: 5px solid #00986c;
+    width: 300px;
+    height: 350px;
+    overflow:hidden;
+}
+.Eich-container img{
+    clear:left;
+    float:left;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.navbar p{
+    font-size: -large;
+    float:right;
+    width:1100px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:white;
+}
+.navbar h3{
+    color:black;
+    padding-left: 325px;
+    float:center;
+    font-size: xx-large;
+}
+.text h3{
+    text-align:left;
+    padding-left: 325px;
+    margin-top: -10px;
+}
+.eich p{
+    height:-50px;
+    width: 310px;
+    color:white;
+    float:left;
+}
